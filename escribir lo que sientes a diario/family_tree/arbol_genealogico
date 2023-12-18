@@ -1,0 +1,21 @@
+digraph {
+	Persona
+	Padre
+	Padre -> Persona [label=Padre]
+	Madre
+	Madre -> Persona [label=Madre]
+	Padre
+	"Abuelo Paterno"
+	"Abuelo Paterno" -> Padre [label=Padre]
+	"Abuela Paterna"
+	"Abuela Paterna" -> Padre [label=Madre]
+	"Abuelo Paterno"
+	"Abuela Paterna"
+	Madre
+	"Abuelo Materno"
+	"Abuelo Materno" -> Madre [label=Padre]
+	"Abuela Materna"
+	"Abuela Materna" -> Madre [label=Madre]
+	"Abuelo Materno"
+	"Abuela Materna"
+}
